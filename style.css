@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+input {
+    margin-top: 20px;
+}
+
+.answer-container {
+    display: flex;
+    justify-content: space-around;
+    width: 60px;
+}
+
+.score-container {
+    text-align: center;
+}
