@@ -1,3 +1,4 @@
+let container = document.querySelector('.container')
 let num1 = document.querySelector(".num1");
 let num2 = document.querySelector(".num2");
 let input = document.querySelector("input");
@@ -24,5 +25,11 @@ input.addEventListener("keypress", (event) => {
       score.innerHTML = count;
       input.value = "";
     }
+
+    if(count === 10) {
+        container.innerHTML = 'You win!'
+        container.style.fontSize = '32px'
+    }
   }
 });
+
