@@ -10,6 +10,7 @@ let score = document.querySelector(".score");
 let count = 0;
 
 input.addEventListener("keypress", (event) => {
+    
   if (event.key === "Enter") {
     let sum = parseInt(num1.innerHTML) + parseInt(num2.innerHTML);
     let response = parseInt(input.value);
