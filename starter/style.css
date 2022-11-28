@@ -1,0 +1,24 @@
+* {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    gap: 20px;
+}
+
+.answer-container {
+    display: flex;
+    justify-content: space-around;
+    font-size: 28px;
+    gap: 10px;
+}
+
+.score-container {
+    font-size: 18px;
+}
+
